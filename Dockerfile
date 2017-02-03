@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-RUN VERSION=0.5.0-rc2 \
+RUN VERSION=0.5.0 \
 && export DEBIAN_FRONTEND=noninteractive \
 && apt-get -qq update \
 && apt-get -y install wget ca-certificates \
